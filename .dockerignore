@@ -1,0 +1,3 @@
+venv/ #ignore virtual env folder
+.git   # .git is a hidden folder that needs to be ignored.
+.gitignore
