@@ -94,6 +94,16 @@ docker stop <container_id>
 ```
 
 
-# U is for untracked files meaning - those files are still not added in the github repo. to add them simply do git add <filename>
+```U is for untracked files meaning - those files are still not added in the github repo. to add them simply do git add <filename>
 # git commit is to commit that version.
 # git log is to read all the commit messages for all the versions you created. 
+```
+
+```
+instead of keep on running the pip install -r requirements.txt file 
+
+run: 
+# after creating a new virtual environment just run the below line.
+python setup.py install #this will take care of all the installs
+
+```
