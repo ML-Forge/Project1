@@ -5,7 +5,7 @@ from typing import List
 
 #Declaring variables for setup function
 PROJECT_NAME = "housing-predictor"
-VERSION = "0.0.2"
+VERSION = "0.0.3"
 AUTHOR = "Nikita"
 DESCRIPTION = "project on housing"
 # PACKAGES =["housing"] #list of the names of the packages
