@@ -3,3 +3,4 @@ Flask
 gunicorn
 sklearn
 pandas
+-e . #to install the current packages.(all folders where __init__.py file is there) (dot means current folder) #to run this setup.py file should be present.  

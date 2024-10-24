@@ -1,13 +1,14 @@
 
-from setuptools import setup
+# from setuptools import setup
+from setuptools import setup, find_packages
 from typing import List
 
 #Declaring variables for setup function
 PROJECT_NAME = "housing-predictor"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 AUTHOR = "Nikita"
 DESCRIPTION = "project on housing"
-PACKAGES =["housing"] #list of the names of the packages
+# PACKAGES =["housing"] #list of the names of the packages
 REQUIREMENT_FILE_NAME = "requirements.txt"
 
 def get_requirements_list()->List[str]:
@@ -20,7 +21,7 @@ def get_requirements_list()->List[str]:
     """
 
     with open(REQUIREMENT_FILE_NAME, 'r') as requirement_file:
-        return requirement_file.readlines()
+        return requirement_file.readlines().remove("-e .") #removing this because we already using find_packages() which is equivalent to -e .
 
 setup(
 
@@ -28,7 +29,7 @@ setup(
     version = VERSION,
     author = AUTHOR,
     description=DESCRIPTION,
-    packages = PACKAGES,
+    packages = find_packages(), #any module present in the root directory will be passed as a list. wherever there is __init__.py #["housing"]
     install_requires = get_requirements_list()
 )
 
