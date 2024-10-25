@@ -38,10 +38,13 @@ class HousingException(Exception): #defining custom exception and Exception is t
         return error_message
     
 
+#this works in jupyter notebook
+# this shows what is the output of print(object of the class)
     def __str__(self): #dunder method #when an object of the class is made. then when you print that object you will see the output of this fucntion. 
         return self.error_message  # error_message is the attribute of the class.
     
 
+# this shows how when just object is printed it looks like 
     def __repr__(self) -> str:
         return HousingException.__name__.str() #same as __str__ just prints.
     
