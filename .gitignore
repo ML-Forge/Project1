@@ -22,7 +22,7 @@ sdist/
 var/
 wheels/
 share/python-wheels/
-*.egg-info/
+*.egg-info/  # anyfile from egg-info is in gitignore
 .installed.cfg
 *.egg
 MANIFEST
