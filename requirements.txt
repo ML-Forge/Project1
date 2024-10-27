@@ -5,3 +5,4 @@ sklearn
 pandas
 #to install the current packages.(all folders where __init__.py file is there) (dot means current folder) #to run this setup.py file should be present.  
 #-e . #if this runs correctly it creates .egg-info folder
+PyYAML

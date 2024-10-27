@@ -107,3 +107,7 @@ run:
 python setup.py install #this will take care of all the installs
 
 ```
+
+```
+pip install ipykernel
+```
