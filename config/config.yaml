@@ -1,4 +1,4 @@
-
+#this file is made after writing defining the variables in entity/config_entity.py
 #this is pipeline and pipeline has components. Each component will create an artifact. Each artifact will get stored in the artifact directory. 
 training_pipeline_config:
   pipeline_name: housing
@@ -15,7 +15,7 @@ data_ingestion_config:
 
 
 
-data_validation_config:
+data_validation_config:             #this is made after seeing this defined within the config_entity.py file.
   schema_dir: config
   schema_file_name: schema.yaml
   report_file_name: report.json

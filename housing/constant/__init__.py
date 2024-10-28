@@ -1,3 +1,5 @@
+#these are all just variables defined under config/config.yaml file. 
+
 import os
 from datetime import datetime
 
@@ -34,7 +36,7 @@ DATA_INGESTION_TEST_DIR_KEY = "ingested_test_dir"
 
 
 
-# Data Validation related variables
+# Data Validation related variables                #these are just variable names for the variables defined in config.yaml file. 
 DATA_VALIDATION_CONFIG_KEY = "data_validation_config"
 DATA_VALIDATION_SCHEMA_FILE_NAME_KEY = "schema_file_name"
 DATA_VALIDATION_SCHEMA_DIR_KEY = "schema_dir"
