@@ -1,5 +1,7 @@
 from collections import namedtuple
 
+#this is the input of the specific component.
+
 #to store this information - we can also use dictionary but dictionary is mutable, it can be modified. But namedtuple is immutable and 
 # and it cannot be modified, that configuration would remain same. 
 
